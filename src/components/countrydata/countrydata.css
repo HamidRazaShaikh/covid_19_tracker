@@ -1,0 +1,139 @@
+
+.heading {
+
+    font-size: 30px ;
+    width : 100%;
+    margin-top : 0px;
+    background-color: blue;
+    font-weight : 10px ;
+    color : yellow;
+    display : flex;
+    flex-direction: column ;
+    justify-content:'center';
+    align-items: center;
+    border-radius: 5px;
+    
+
+}
+
+
+
+._confirmed {
+    height: 950%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #4043ff;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 10px;
+    margin-top : 5px;
+    margin : 10px ; 
+    background-color: rgb(231, 245, 245);
+
+
+}
+
+._recovered {
+    height: 95%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #0fa14c;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 10px;
+    margin-top : 5px;
+    margin : 10px ; 
+    background-color: rgb(231, 245, 245);
+
+
+
+}
+._deaths {
+    height: 95%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #db2c0d;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 10px;
+    margin-top : 5px;
+    margin : 10px ; 
+    background-color: rgb(231, 245, 245);
+
+
+
+
+}
+._icon_infected {
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/infected.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+}
+
+._icon_recovered {
+
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/patient.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+
+}
+._icon_death {
+
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/death.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+._chart {
+
+    height: 95%;
+    width : 95% ;
+    font-size: 30px ;
+    font-weight : 2px ;
+    color : #18a5af;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 10px;
+    margin-top : 5px;
+    background-color: rgb(231, 245, 245);
+
+}
+._containerSearch {
+
+    padding : 5px;
+    margin-top :5px;
+    background-color: rgb(231, 245, 245);
+
+}

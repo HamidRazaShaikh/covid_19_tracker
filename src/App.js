@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Grid, Container } from "@material-ui/core";
+import Header from "./components/header.js";
+import GlobalData from './components/globalData/globalData.js';
+import Background from './resources/C19Virus.jpg';
 
-function App() {
+
+
+
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container direction = 'column' alignItems = 'center' >
+      <Grid item sm={12} md = {6} style = {{backgroundImage : `url(${Background})` , backgroundRepeat : 'no-repeat' , backgroundSize : 'cover', backgroundPosition : 'center'}}
+>
+        <Header />
+        <GlobalData/>
+      </Grid>
+    </Grid>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,158 @@
+.container {
+    display : flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+    padding : 5px;
+
+}
+.confirmed {
+    height: 95%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #4043ff;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 5px;
+    margin-top : 5px;
+    background-color: rgb(231, 245, 245);
+
+
+    
+    
+
+}
+
+.recovered {
+    height: 95%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #0fa14c;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 5px;
+    margin-top : 5px;
+    background-color: rgb(231, 245, 245);
+
+
+    
+
+    
+}
+
+.deaths {
+    height: 95%;
+    width : 95% ;
+    font-size: 20px ;
+    font-weight : 2px ;
+    color : #db2c0d;
+    display : flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 5px;
+    margin-top : 5px;
+    background-color: rgb(231, 245, 245);
+
+
+}
+
+.icon_infected {
+
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/infected.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.icon_recovered {
+
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/patient.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.icon_death {
+
+    height : 30px;
+    width : 30px;
+    background-image: url('../../resources/death.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.marquee {
+
+    display : flex ;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width : 100% ;
+    background-color: blue ;
+
+}
+
+
+.marquee_text {
+
+    font-size:  20px ;
+    color : yellow;
+
+}
+
+.chart {
+
+    height: 95%;
+    width : 95% ;
+    color : #18a5af;
+
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding : 5px;
+    margin-top : 5px;
+    background-color: rgb(231, 245, 245);
+
+}
+
+.caption {
+    font-size: 30px ;
+    width : 100%;
+    margin-top : 0px;
+    background-color: blue;
+    font-weight : 10px ;
+    color : yellow;
+    display : flex;
+    flex-direction: column ;
+    justify-content:'center';
+    align-items: center;
+    border-radius: 5px;
+
+}
